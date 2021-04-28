@@ -19,8 +19,6 @@ body{
 display: flex;
 justify-content: center;
 align-items: center;
-
-
 }
 .card img{
   margin-top: 45px;
@@ -52,27 +50,29 @@ align-items: center;
   margin-left: 40px;
   margin-top: 45px;
   border-radius: 25px;
-  border:2px transparent;
-}
-btn:hover{
-  cursor: pointer;
-  border: 1px solid;
-  outline: none;
-  text-decoration: none;
-}
-.btn a{
-  text-decoration: none;
+  border: none;
 }
 
 .left-card{
   background-color: hsl(31, 77%, 52%);
   width: 290px;
-  height: 31vh;
+  height: 31vh;  
   border-top-left-radius:10px; 
   border-bottom-left-radius: 10px;
 }
 .left-card button a{
   color: hsl(31, 77%, 52%);
+  text-decoration: none;
+}
+.left-card .btn a:hover{
+  color: hsl(0, 0%, 95%)
+}
+.left-card .btn:hover{
+  cursor: pointer;
+  border: 2px solid hsl(0, 0%, 95%);
+  outline: none;
+  text-decoration: none;
+  background: hsl(31, 77%, 52%);
 }
 
 .middle-card{
@@ -80,8 +80,19 @@ btn:hover{
   width: 290px;
   height: 31vh;
 }
-.middle-card button  a{
+.middle-card .btn  a{
   color: hsl(184, 100%, 22%);
+  text-decoration: none;
+}
+.middle-card .btn a:hover{
+  color: hsl(0, 0%, 95%)
+}
+.middle-card .btn:hover{
+  cursor: pointer;
+  border: 2px solid hsl(0, 0%, 95%);
+  outline: none;
+  text-decoration: none;
+  background: hsl(184, 100%, 22%);
 }
 
 .right-card{
@@ -91,8 +102,19 @@ btn:hover{
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.right-card button a{
+.right-card  .btn a{
   color: hsl(179, 100%, 13%);
+  text-decoration: none;
+}
+.right-card .btn a:hover{
+  color: hsl(0, 0%, 95%)
+}
+.right-card .btn:hover{
+  cursor: pointer;
+  border: 2px solid hsl(0, 0%, 95%);
+  outline: none;
+  text-decoration: none;
+  background: hsl(179, 100%, 13%);
 }
 
 .attribution {
