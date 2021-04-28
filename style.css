@@ -71,7 +71,6 @@ align-items: center;
   cursor: pointer;
   border: 2px solid hsl(0, 0%, 95%);
   outline: none;
-  text-decoration: none;
   background: hsl(31, 77%, 52%);
 }
 
@@ -85,13 +84,13 @@ align-items: center;
   text-decoration: none;
 }
 .middle-card .btn a:hover{
-  color: hsl(0, 0%, 95%)
+  color: hsl(0, 0%, 95%);
+  text-decoration: none;
 }
 .middle-card .btn:hover{
   cursor: pointer;
   border: 2px solid hsl(0, 0%, 95%);
   outline: none;
-  text-decoration: none;
   background: hsl(184, 100%, 22%);
 }
 
@@ -113,7 +112,6 @@ align-items: center;
   cursor: pointer;
   border: 2px solid hsl(0, 0%, 95%);
   outline: none;
-  text-decoration: none;
   background: hsl(179, 100%, 13%);
 }
 
